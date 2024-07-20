@@ -1,10 +1,10 @@
 # Next.js Creative Portfolio Tutorial: Build Amazing Portfolio Website with Next.js, Three.js, and Tailwind CSS 🔥
 
 
-This repository contains **final code** for Next.js Creative Portfolio website built using Next.js and Three.js. <br />
+This repository contains **final code** for My Creative Portfolio website built using Next.js and Three.js. <br />
 
 For Demo checkout following link👇: <br />
-[Nextjs Creative Portfolio Website Demo](https://next-js-creative-portfolio-website.vercel.app/) <br />
+[My Portfolio Website ](https://portfolio-mine-culn7k0qf-coderdebjeets-projects.vercel.app/) <br />
 
 
 ---
