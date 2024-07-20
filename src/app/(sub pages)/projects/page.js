@@ -6,7 +6,7 @@ import RenderModel from "@/components/RenderModel";
 // import Staff from "@/components/models/Staff";
 import dynamic from "next/dynamic";
 
-const Staff = dynamic(() => import("@/components/models/Staff"), {
+const Staff = dynamic(() => import("@/components/models/sword"), {
   ssr: false,
 });
 

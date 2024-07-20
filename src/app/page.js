@@ -3,6 +3,8 @@ import bg from "../../public/background/home-background.png";
 import RenderModel from "@/components/RenderModel";
 // import Wizard from "@/components/models/Wizard";
 import Navigation from "@/components/navigation";
+import Iron from "@/components/models/Iron";
+//import Prog from "@/components/models/programmer";
 
 import dynamic from "next/dynamic";
 const Wizard = dynamic(() => import("@/components/models/Wizard"), {
@@ -24,7 +26,7 @@ export default function Home() {
       <div className="w-full h-screen">
         <Navigation />
         <RenderModel>
-          <Wizard />
+          <Iron />
         </RenderModel>
       </div>
     </main>

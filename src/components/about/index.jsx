@@ -15,15 +15,17 @@ const AboutDetails = () => {
             Architect of Enchantment
           </h2>
           <p className="font-light  text-xs sm:text-sm md:text-base   ">
-            My journey in web development is powered by an array of mystical
-            tools and languages, with JavaScript casting the core of my
-            enchantments. I wield frameworks like React.js and Next.js with
-            precision, crafting seamless portals (websites) that connect realms
-            (users) across the digital universe. The ancient arts of the
-            Jamstack empower me to create fast, secure, and dynamic experiences,
-            while my design skills ensure every creation is not only functional
-            but visually captivating. Join me as I continue to explore new
-            spells and technologies to shape the future of the web.
+          My programming journey began in school, where I first encountered HTML and discovered the art of crafting beautiful websites. 
+          This initial spark led me to Java in the 9th grade, marking the start of my coding adventures. As I progressed through higher 
+          secondary education, I delved into Python, creating impressive projects like a Restaurant Manager and a Hospital Manager using Tkinter. 
+          Alongside Python, I learned both SQL and NoSQL databases.Upon entering college, I expanded my knowledge with HTML, CSS, JavaScript,
+          React, and Next.js. My focus then shifted from web development to Android development, particularly cross-platform development, utilizing Flutter and Firebase. 
+          This transition was fueled by my participation in a hackathon where I had to develop an Android application, a challenge I embraced and conquered.
+          My innate curiosity and eagerness to learn new technologies have always driven me forward. Few months back I got a intern in a Government Reasearch 
+          institute in Robotics Department where I learnt about Deep Learning .Currently, I am interning in Data Science and Deep Learning, working on projects in my final year. 
+          My ultimate goal is to become a Data Scientist with the capability to deploy solutions, whether in web development or Android development. 
+          This is my story, a continuous journey of learning and growth, driven by a passion for technology and innovation.
+          Join me as I continue to explore new spells and technologies to shape the future .
           </p>
         </ItemLayout>
 
@@ -31,7 +33,7 @@ const AboutDetails = () => {
           className={" col-span-full xs:col-span-6 lg:col-span-4 text-accent"}
         >
           <p className="font-semibold w-full text-left text-2xl sm:text-5xl">
-            25+ <sub className="font-semibold text-base">clients</sub>
+            25+ <sub className="font-semibold text-base">Projects</sub>
           </p>
         </ItemLayout>
 
@@ -44,58 +46,15 @@ const AboutDetails = () => {
           </p>
         </ItemLayout>
 
-        <ItemLayout
-          className={"col-span-full sm:col-span-6 md:col-span-4 !p-0"}
-        >
-          <img
-            className="w-full h-auto"
-            src={`${process.env.NEXT_PUBLIC_GITHUB_STATS_URL}/api/top-langs?username=codebucks27&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false`}
-            alt="CodeBucks"
-            loading="lazy"
-          />
-        </ItemLayout>
-
-        <ItemLayout className={"col-span-full md:col-span-8 !p-0"}>
-          <img
-            className="w-full h-auto"
-            src={`${process.env.NEXT_PUBLIC_GITHUB_STATS_URL}/api?username=codebucks27&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false`}
-            alt="CodeBucks"
-            loading="lazy"
-          />
-        </ItemLayout>
-
         <ItemLayout className={"col-span-full"}>
           <img
             className="w-full h-auto"
-            src={`https://skillicons.dev/icons?i=appwrite,aws,babel,bootstrap,cloudflare,css,d3,docker,figma,firebase,gatsby,git,github,graphql,html,ipfs,js,jquery,kubernetes,linux,mongodb,mysql,netlify,nextjs,nodejs,npm,postgres,react,redux,replit,sass,supabase,tailwind,threejs,vercel,vite,vscode,yarn`}
+            src={`https://skillicons.dev/icons?i=c,python,java,js,html,bootstrap,css,d3,docker,figma,firebase,git,github,graphql,cloudflare,jquery,kubernetes,aws,linux,mongodb,mysql,netlify,nextjs,nodejs,npm,postgres,react,replit,tailwind,threejs,vercel,vite,vscode,tensorflow,flutter,kotlin`}
             alt="CodeBucks"
             loading="lazy"
           />
         </ItemLayout>
 
-        <ItemLayout className={"col-span-full md:col-span-6 !p-0"}>
-          <img
-            className="w-full h-auto"
-            src={`${process.env.NEXT_PUBLIC_GITHUB_STREAK_STATS_URL}?user=codebucks27&theme=dark&hide_border=true&type=svg&background=EB545400&ring=FEFE5B&currStreakLabel=FEFE5B`}
-            alt="CodeBucks"
-            loading="lazy"
-          />
-        </ItemLayout>
-
-        <ItemLayout className={"col-span-full md:col-span-6 !p-0"}>
-          <Link
-            href="https://github.com/codebucks27/Nextjs-contentlayer-blog"
-            target="_blank"
-            className="w-full"
-          >
-            <img
-              className="w-full h-auto"
-              src={`${process.env.NEXT_PUBLIC_GITHUB_STATS_URL}/api/pin/?username=codebucks27&repo=Nextjs-contentlayer-blog&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false&description_lines_count=2`}
-              alt="CodeBucks"
-              loading="lazy"
-            />
-          </Link>
-        </ItemLayout>
       </div>
     </section>
   );
